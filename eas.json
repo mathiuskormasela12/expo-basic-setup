@@ -1,0 +1,95 @@
+{
+  "cli": {
+    "version": ">= 5.9.3"
+  },
+  "build": {
+    "development-debug": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "ios": {
+        "simulator": true
+      },
+      "env": {
+        "APP_VARIANT": "development"
+      }
+    },
+    "development-release": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "ios": {
+        "simulator": true
+      },
+      "env": {
+        "APP_VARIANT": "development"
+      }
+    },
+    "staging-debug": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "ios": {
+        "simulator": true
+      },
+      "env": {
+        "APP_VARIANT": "staging",
+        "EXPO_PUBLIC_APP_NAME": "Unsiagram (Stg)",
+        "EXPO_PUBLIC_APP_VERSION": "1.0.0",
+        "EXPO_PUBLIC_APP_BUILD_NUMBER": "1",
+        "EXPO_PUBLIC_APP_URL": "https://www.unsiagram.staging.com",
+        "EXPO_PUBLIC_API_URL": "https://www.unsiagram.staging.com/api/v1"
+      }
+    },
+    "staging-release": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "ios": {
+        "simulator": true
+      },
+      "env": {
+        "APP_VARIANT": "staging",
+        "EXPO_PUBLIC_APP_NAME": "Unsiagram (Stg)",
+        "EXPO_PUBLIC_APP_VERSION": "1.0.0",
+        "EXPO_PUBLIC_APP_BUILD_NUMBER": "1",
+        "EXPO_PUBLIC_APP_URL": "https://www.unsiagram.staging.com",
+        "EXPO_PUBLIC_API_URL": "https://www.unsiagram.staging.com/api/v1"
+      }
+    },
+    "production-debug": {
+      "developmentClient": true,
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "ios": {
+        "simulator": true
+      },
+      "env": {
+        "APP_VARIANT": "production"
+      }
+    },
+    "production-release": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk"
+      },
+      "ios": {
+        "simulator": true
+      },
+      "env": {
+        "APP_VARIANT": "production"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
