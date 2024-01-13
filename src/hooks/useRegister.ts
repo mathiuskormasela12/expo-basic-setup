@@ -1,10 +1,10 @@
 import { useCallback } from "react";
 import { useDispatch, useSelector } from "react-redux";
 
-import { setToken } from "../redux/slices/authSlice";
-import { setTempToken } from "../redux/slices/authTempSlice";
-import { AppDispatch, RootState } from "../redux/store";
-import { RegisterScreenHook } from "../types";
+import { setToken } from "@/src/redux/slices/authSlice";
+import { setTempToken } from "@/src/redux/slices/authTempSlice";
+import { AppDispatch, RootState } from "@/src/redux/store";
+import { RegisterScreenHook } from "@/src/types";
 
 export const useRegister: RegisterScreenHook = () => {
   const dispatch = useDispatch<AppDispatch>();

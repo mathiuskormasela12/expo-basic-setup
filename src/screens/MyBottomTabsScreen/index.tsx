@@ -1,11 +1,12 @@
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import React from "react";
 
-import { BottomStackParamList } from "../../types/router.types";
 import AccountScreen from "../AccountScreen";
 import AddPostScreen from "../AddPostScreen";
 import PostScreen from "../PostScreen";
 import SearchAccountScreen from "../SearchAccountScreen";
+
+import { BottomStackParamList } from "@/src/types/router.types";
 
 const BottomStack = createBottomTabNavigator<BottomStackParamList>();
 

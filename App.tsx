@@ -4,8 +4,8 @@ import React, { useEffect } from "react";
 import { Alert, BackHandler } from "react-native";
 import { SafeAreaProvider } from "react-native-safe-area-context";
 
-import Router from "./src/Router";
-import { ReduxWrapper } from "./src/components";
+import Router from "@/src/Router";
+import { ReduxWrapper } from "@/src/components";
 
 export default function App() {
   useEffect(() => {

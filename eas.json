@@ -13,7 +13,12 @@
         "simulator": true
       },
       "env": {
-        "APP_VARIANT": "development"
+        "APP_VARIANT": "development",
+        "EXPO_PUBLIC_APP_NAME": "Unsiagram (Dev)",
+        "EXPO_PUBLIC_APP_VERSION": "1.0.0",
+        "EXPO_PUBLIC_APP_BUILD_NUMBER": "1",
+        "EXPO_PUBLIC_APP_URL": "http://localhost:8080",
+        "EXPO_PUBLIC_API_URL": "http://localhost:8080/api/v1"
       }
     },
     "development-release": {
@@ -25,7 +30,12 @@
         "simulator": true
       },
       "env": {
-        "APP_VARIANT": "development"
+        "APP_VARIANT": "development",
+        "EXPO_PUBLIC_APP_NAME": "Unsiagram (Dev)",
+        "EXPO_PUBLIC_APP_VERSION": "1.0.0",
+        "EXPO_PUBLIC_APP_BUILD_NUMBER": "1",
+        "EXPO_PUBLIC_APP_URL": "http://localhost:8080",
+        "EXPO_PUBLIC_API_URL": "http://localhost:8080/api/v1"
       }
     },
     "staging-debug": {
@@ -63,12 +73,7 @@
         "simulator": true
       },
       "env": {
-        "APP_VARIANT": "production",
-        "EXPO_PUBLIC_APP_NAME": "Unsiagram (Prod)",
-        "EXPO_PUBLIC_APP_VERSION": "1.0.0",
-        "EXPO_PUBLIC_APP_BUILD_NUMBER": "1",
-        "EXPO_PUBLIC_APP_URL": "https://www.unsiagram.com",
-        "EXPO_PUBLIC_API_URL": "https://www.unsiagram.com/api/v1"
+        "APP_VARIANT": "production"
       }
     },
     "production-release": {
@@ -80,12 +85,7 @@
         "simulator": true
       },
       "env": {
-        "APP_VARIANT": "production",
-        "EXPO_PUBLIC_APP_NAME": "Unsiagram (Prod)",
-        "EXPO_PUBLIC_APP_VERSION": "1.0.0",
-        "EXPO_PUBLIC_APP_BUILD_NUMBER": "1",
-        "EXPO_PUBLIC_APP_URL": "https://www.unsiagram.com",
-        "EXPO_PUBLIC_API_URL": "https://www.unsiagram.com/api/v1"
+        "APP_VARIANT": "production"
       }
     }
   },

@@ -1,8 +1,8 @@
 import React from "react";
 import { Text, Button } from "react-native";
 
-import { SafeAreaView } from "../../components";
-import { useRegister } from "../../hooks";
+import { SafeAreaView } from "@/src/components";
+import { useRegister } from "@/src/hooks";
 
 const PostScreen: React.FC = () => {
   const { accessToken, handleToken, accessTokenTemp, handleTokenTemp } =

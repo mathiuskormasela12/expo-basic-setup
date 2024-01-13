@@ -2,7 +2,7 @@ import React from "react";
 import { View } from "react-native";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
 
-import { ISafeAreaView } from "../../../types";
+import { ISafeAreaView } from "@/src/types";
 
 const SafeAreaView: React.FC<ISafeAreaView> = ({ children, style }) => {
   const insets = useSafeAreaInsets();

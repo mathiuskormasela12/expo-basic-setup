@@ -2,8 +2,8 @@ import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import React from "react";
 
-import { MyBottomTabsScreen, RegisterScreen } from "./screens";
-import { RootStackParamList } from "./types/router.types";
+import { MyBottomTabsScreen, RegisterScreen } from "@/src/screens";
+import { RootStackParamList } from "@/src/types/router.types";
 
 const Stack = createNativeStackNavigator<RootStackParamList>();
 

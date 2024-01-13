@@ -1,6 +1,6 @@
 import { ExpoConfig } from "expo/config";
 
-import { APP_VARIANT } from "./src/types";
+import { APP_VARIANT } from "@/src/types";
 
 const appVariant = (process.env?.APP_VARIANT ?? "development") as APP_VARIANT;
 const appName = process.env?.EXPO_PUBLIC_APP_NAME ?? "Unsiagram (Default)";
@@ -51,6 +51,9 @@ const config: ExpoConfig = {
     eas: {
       projectId: "54173b5f-e787-4d36-8102-f9a31433f227",
     },
+  },
+  experiments: {
+    tsconfigPaths: true,
   },
 };
 
